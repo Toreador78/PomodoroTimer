@@ -19,13 +19,22 @@
     <link href="css/custom.css" rel="StyleSheet" />
     <!--Fonts-->
   </head>
-  <body ng-app="TimerApp" ng-controller="TimerCtrl" ng-init="initTimer()">
+  <body>
+    <h1><center>Pomodoro Timer</center></h1>
+    <h2><center id="timer" textalign="center"></center></h2><br>
+    <center>
+      <button id="startBtn" class="btn btn-primary" type="submit">Start</button>
+      <button id="stopBtn" class="btn btn-primary" type="submit">Stop</button>
+      <button id="resetBtn" class="btn btn-primary" type="submit">Reset</button>
+      <button id="plusBtn" class="btn btn-primary" type="submit">+</button>
+      <button id="minusBtn" class="btn btn-primary" type="submit">-</button>
+    </center>
     <!--jQuery.js-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!--Bootstrap.js-->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <!--Angular.js-->
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+    <!--Angular.js
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>-->
     <!--local-->
     <script src="js/script.js"></script>
   </body>
