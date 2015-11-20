@@ -22,7 +22,7 @@ function startTimer() {
     display.textContent = timeParser(timer);
     timer--;
     if (timer < 0) {
-      alert("Pomodoro done!")
+      alert("Pomodoro done!");
       timer = duration;
     }
   }, 1000);

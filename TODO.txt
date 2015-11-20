@@ -1,4 +1,4 @@
 #Done:0 x 2015-11-03 2015-11-03 issue:0 Scaffold
-#BACKLOG:0 2015-11-03 issue:1 User Story 1
-#BACKLOG:10 2015-11-03 issue:2 User Story 2
-#BACKLOG:20 2015-11-03 issue:3 User Story 3
+#Done:10 2015-11-03 issue:1 User Story 1
+#Done:20 2015-11-03 issue:2 User Story 2
+#Done:30 2015-11-03 issue:3 User Story 3
